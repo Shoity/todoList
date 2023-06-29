@@ -1,0 +1,41 @@
+.addTask {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+
+    width: 70%;
+    margin: auto;
+
+    margin-top: calc(0px - 1.625rem);
+}
+
+.addTaskInput {
+    width: 39.875rem;
+    padding: 1rem;
+
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+
+    font-size: 1rem;
+    color: var(--gray-300);
+
+    background-color: var(--gray-500);
+}
+
+.addBtn {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 1rem;
+
+    border: none;
+    border-radius: 8px;
+
+    background-color: var(--blue-500);
+    color: var(--gray-100);
+
+    font-size: 0.875rem;
+
+    cursor: pointer;
+}
