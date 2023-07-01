@@ -3,7 +3,7 @@
     justify-content: center;
     gap: 0.5rem;
 
-    width: 70%;
+    width: 40%;
     margin: auto;
 
     margin-top: calc(0px - 1.625rem);
@@ -38,4 +38,53 @@
     font-size: 0.875rem;
 
     cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    width: 40%;
+    margin: 4rem auto 2.5rem;
+
+    font-size: 0.875rem;
+}
+
+.taskCounter {
+    display: flex;
+    color: var(--blue-500);
+    gap: 0.25rem;
+}
+
+.taskCounter span {
+    background-color: var(--gray-500);
+    border-radius: 999px;
+    padding: 0 0.5rem;
+}
+
+.finishedCounter {
+    display: flex;
+    color: var(--purple-500);
+    gap: 0.25rem
+}
+
+.finishedCounter span {
+    background-color: var(--gray-500);
+    border-radius: 999px;
+    padding: 0 0.5rem;
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 87.5%;
+    }
+
+    .header {
+        display: block;
+    }
+
+    .taskCounter {
+        margin-bottom: 1rem;
+    }
+
 }
